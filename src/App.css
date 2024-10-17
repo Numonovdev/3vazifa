@@ -1,0 +1,57 @@
+.navbar{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--colorblue);
+}
+.nav-h1{
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--colorwhite);
+}
+.NavbarLink{
+    color: var(--colorwhite);
+    text-decoration: none;
+    padding: 2px 10px;
+}
+.NavbarLink:hover{
+  text-decoration: underline;
+}
+.block{
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.formdiv{
+  max-width: 1200px;
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn{
+  width: 100px;
+  border-radius: 10px;
+  border: transparent;
+  padding: 10px 20px;
+  background-color: var(--colorblue);
+  color: var(--colorwhite);
+  margin: 20px auto;
+}
